@@ -35,9 +35,9 @@ body{
 .input1 input{
     position: sticky;
 margin-top: 3.95em;
-margin-left: 1.5em;
+margin-left: 1em;
 font-family:digital-font;
-padding: 0px;
+
 
 height: 55px;
 background-color: rgb(53 165 77);
@@ -46,7 +46,8 @@ border: 2px solid rgb(20, 19, 19);
 /* border: 2px rgb(12, 12, 12); */
  /* z-index: 5; */
 /* size: 30px; */
-font-size: 1.3em;
+font-size: 1.4em;
+    over-flow:auto;
 
 
 
@@ -71,16 +72,13 @@ font-size: 1.3em;
     
 }
 .unit select{
-    background-color: rgb(53 165 77);
+    background-color: transparent;
     border: none;
     font-size: 16pt;
-    list-style: none;
+    
     font-family: digital-font;
     text-decoration: none;
     
     -webkit-appearance: none;
 
-}
-.opt {
-    color: black;
 }
