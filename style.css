@@ -33,21 +33,17 @@ body{
 }
 
 .input1 input{
-    position: sticky;
-margin-top: 3.85em;
-margin-left: 1em;
-font-family:digital-font;
-
-
-height: 60px;
-background-color: rgb(53 165 77);
-border: 2px solid rgb(20, 19, 19);
-/* border-radius: 5px; */ 
-/* border: 2px rgb(12, 12, 12); */
- /* z-index: 5; */
-/* size: 30px; */
-font-size: 1.4em;
-    over-flow:auto;
+  position: relative;
+    top: 2.4em;
+    left: -7.em;
+    right: -11px;
+    font-family: digital-font;
+    padding: 0px;
+    height: 60px;
+    width: 190px;
+    background-color: rgb(53 165 77);
+    border: 2px solid rgb(20, 19, 19);
+    font-size: 25pt;
 
 
 
@@ -66,8 +62,8 @@ font-size: 1.4em;
 }
 .unit{
     position: relative;
-    right: 0em;
-    bottom: 0em;
+    right: 1.5em;
+    bottom: -1.7em;
     font-size: 25pt;
     
 }
