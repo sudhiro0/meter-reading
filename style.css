@@ -57,6 +57,14 @@ body{
     text-align: center;
     over-flow: auto;
 }
+input[type="number"]{
+      height: 30px;
+      width: 40%;
+      
+      
+      text-align: left;
+      padding: 10px;
+}
 .kwh{
     position: relative;
     left:0px
