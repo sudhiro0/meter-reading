@@ -45,7 +45,8 @@ body{
     border: 2px solid rgb(20, 19, 19);
     font-size: 25pt;
 
-
+z-index: 1;
+        }
 
 }
 
@@ -56,15 +57,9 @@ body{
   
     text-align: center;
     over-flow: auto;
+    z-index:2;
 }
-input[type="number"]{
-      height: 30px;
-      width: 40%;
-      
-      
-      text-align: left;
-      padding: 10px;
-}
+
 .kwh{
     position: relative;
     left:0px
